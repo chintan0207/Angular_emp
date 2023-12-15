@@ -1,0 +1,57 @@
+
+
+
+
+.action-btn{
+    display: flex;
+    gap: 8px;
+}
+
+.action-btn2{
+    display: none;
+}
+
+.i1{
+    color: #0d6efd;
+}
+.i2{
+    color: #dc3545;
+}
+.i3{
+    color: #198754;
+}
+
+
+/* ........................................................ */
+
+@media (max-width: 600px) {
+    td,th{
+        display: flex;
+        align-items: center;
+  }
+  
+.action-btn{
+    display: block;
+}
+
+
+}
+
+
+ @media (max-width: 850px) {
+   
+.action-btn{
+    display: none;
+}
+
+.action-btn2{
+    font-size: 25px;
+    display: flex;
+    gap: 10px;
+    
+}
+
+    
+}
+
+ 
